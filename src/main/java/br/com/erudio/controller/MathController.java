@@ -12,7 +12,7 @@ import br.com.erudio.math.BasicMath;
 @RestController
 public class MathController {
 	
-	BasicMath calc = new BasicMath();
+	BasicMath calc = new BasicMath(); 
 
 	@RequestMapping(value="/sum/{numberOne}/{numberTwo}", method = RequestMethod.GET)
 	public Double sum(@PathVariable("numberOne") String numberOne, 
